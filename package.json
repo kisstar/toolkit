@@ -1,0 +1,38 @@
+{
+  "name": "toolkit",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A tool project that provides some commonly used functions.",
+  "private": true,
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/cz-commitlint"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.8.3",
+    "@changesets/cli": "^2.27.7",
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/cz-commitlint": "^19.2.0",
+    "commitizen": "^4.3.0",
+    "lefthook": "^1.6.18"
+  },
+  "engines": {
+    "node": ">=18.15.0",
+    "pnpm": ">=8.7.6"
+  },
+  "author": "kisstar <dwh.chn@foxmail.com>",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT"
+}

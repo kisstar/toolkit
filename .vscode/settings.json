@@ -1,0 +1,8 @@
+{
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit", // 保存时修复
+    "source.organizeImports.biome": "explicit" // 导入排序
+  }
+}
