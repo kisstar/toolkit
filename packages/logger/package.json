@@ -1,0 +1,28 @@
+{
+  "name": "@kisstar/logger",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "./dist/logger.es.js",
+  "module": "./dist/logger.es.js",
+  "files": ["dist"],
+  "exports": {
+    ".": {
+      "types": "./dist/types/logger.es.d.ts",
+      "module": "./dist/logger.es.js",
+      "import": "./dist/logger.es.js"
+    },
+    "./*": "./*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kisstar/toolkit.git",
+    "directory": "packages/logger"
+  },
+  "keywords": ["logger"],
+  "author": "Kisstar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kisstar/toolkit/issues"
+  },
+  "homepage": "https://github.com/kisstar/toolkit/tree/main/packages/logger#readme"
+}
