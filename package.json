@@ -6,6 +6,8 @@
   "private": true,
   "scripts": {
     "build": "node build/vite.build.mjs",
+    "release": "pnpm build && pnpm release:only",
+    "release:only": "pnpm publish -r --access public --registry=https://registry.npmjs.org/",
     "test": "vitest",
     "commit": "git-cz"
   },
